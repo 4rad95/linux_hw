@@ -1,0 +1,8 @@
+   0 mkdir -p /opt/test/Radomir
+   1 cd /opt/test/Radomir
+   2 touch file.txt
+   3 cd /home
+   4 cp /opt/test/Radomir/file.txt /tmp/file2.txt
+   5 rm /opt/test/Radomir/file.txt 
+   6 ls -l /tmp
+   7 history >history_1.txt
