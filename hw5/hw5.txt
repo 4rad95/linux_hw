@@ -1,0 +1,12 @@
+   0 touch myfirstbashscript.sh
+   1 chmod ugo+x myfirstbashscript.sh
+   2 export USER=Radomyr
+   3 nano myfirstbashscript.sh
+   4 myfirstbashscript.sh
+   5 ./myfirstbashscript.sh
+
+
+	#!/bin/bash
+	date +%D
+	echo "Hello $USER"
+	pwd
